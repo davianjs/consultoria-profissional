@@ -1,10 +1,30 @@
 {
-  "redirects": [
-    { "source": "/index.html", "destination": "/frontend/index.html", "permanent": true },
-    { "source": "/sobre.html", "destination": "/frontend/sobre.html", "permanent": true },
-    { "source": "/servicos.html", "destination": "/frontend/servicos.html", "permanent": true },
-    { "source": "/contato.html", "destination": "/frontend/contato.html", "permanent": true },
-    { "source": "/login.html", "destination": "/frontend/login.html", "permanent": true },
-    { "source": "/registro.html", "destination": "/frontend/registro.html", "permanent": true }
-  ]
+  "rewrites": [
+    {
+      "source": "/sobre",
+      "destination": "/sobre.html",
+      "permanent": false
+    },
+    {
+      "source": "/servicos",
+      "destination": "/servicos.html",
+      "permanent": false
+    },
+    {
+      "source": "/contato",
+      "destination": "/contato.html",
+      "permanent": false
+    },
+    {
+      "source": "/login",
+      "destination": "/login.html",
+      "permanent": false
+    },
+    {
+      "source": "/registro",
+      "destination": "/registro.html",
+      "permanent": false
+    }
+  ],
+  "cleanUrls": true
 }
