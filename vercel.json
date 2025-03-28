@@ -1,28 +1,33 @@
 {
   "rewrites": [
     {
+      "source": "/",
+      "destination": "frontend/index.html",
+      "permanent": true
+    },
+    {
       "source": "/sobre",
-      "destination": "/sobre.html",
+      "destination": "frontend/sobre.html",
       "permanent": true
     },
     {
       "source": "/servicos",
-      "destination": "/servicos.html",
+      "destination": "frontend/servicos.html",
       "permanent": true
     },
     {
       "source": "/contato",
-      "destination": "/contato.html",
+      "destination": "frontend/contato.html",
       "permanent": true
     },
     {
       "source": "/login",
-      "destination": "/login.html",
+      "destination": "frontend/login.html",
       "permanent": true
     },
     {
       "source": "/registro",
-      "destination": "/registro.html",
+      "destination": "frontend/registro.html",
       "permanent": true
     }
   ],
