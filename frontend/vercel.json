@@ -6,6 +6,16 @@
       { "source": "/contato.html", "destination": "/contato", "permanent": true },
       { "source": "/login.html", "destination": "/login", "permanent": true },
       { "source": "/registro.html", "destination": "/registro", "permanent": true }
+    ],
+    "rewrites": [
+      { "source": "/sobre", "destination": "/frontend/sobre.html" },
+      { "source": "/servicos", "destination": "/frontend/servicos.html" },
+      { "source": "/contato", "destination": "/frontend/contato.html" },
+      { "source": "/login", "destination": "/frontend/login.html" },
+      { "source": "/registro", "destination": "/frontend/registro.html" }
     ]
-  }
+}
+
+
+  
   
