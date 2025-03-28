@@ -1,0 +1,11 @@
+{
+    "redirects": [
+      { "source": "/index.html", "destination": "/", "permanent": true },
+      { "source": "/sobre.html", "destination": "/sobre", "permanent": true },
+      { "source": "/servicos.html", "destination": "/servicos", "permanent": true },
+      { "source": "/contato.html", "destination": "/contato", "permanent": true },
+      { "source": "/login.html", "destination": "/login", "permanent": true },
+      { "source": "/registro.html", "destination": "/registro", "permanent": true }
+    ]
+  }
+  

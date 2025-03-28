@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Parkinsans:wght@300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+* {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+:root {
+    --azul-escuro: #1A2526;
+    --dourado: #D4AF37;
+    --branco: #FFFFFF;
+    --preto: #000000;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--branco);
+    color: var(--preto);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.video-background {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.background-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: -1;
+}
+
+.navbar {
+    background-color: var(--azul-escuro);
+    padding: 1rem 0;
+}
+
+.navbar-transparent {
+    background-color: rgba(26, 37, 38, 0.8);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar-brand, .nav-link {
+    color: var(--branco) !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--dourado) !important;
+}
+
+.btn-login {
+    background-color: var(--dourado);
+    color: var(--preto);
+    border: none;
+    padding: 8px 20px;
+    transition: all 0.3s ease;
+}
+
+.btn-login:hover {
+    background-color: var(--branco);
+    color: var(--azul-escuro);
+}
+
+.intro-section {
+    position: relative;
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.intro-content {
+    text-align: center;
+    color: var(--branco);
+    padding: 20px;
+}
+
+.intro-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.intro-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.content-section {
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.section-title {
+    color: var(--azul-escuro);
+    border-bottom: 3px solid var(--dourado);
+    display: inline-block;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+.section-title-white {
+    color: var(--branco);
+    border-bottom: 3px solid var(--dourado);
+    display: inline-block;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+.team-card, .service-card, .login-card {
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.team-card:hover, .service-card:hover {
+    transform: translateY(-5px);
+}
+
+footer {
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    padding: 40px 0;
+    position: relative;
+    z-index: 1;
+    margin-top: auto;
+}
+
+.social-icon {
+    color: var(--branco);
+    font-size: 24px;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: var(--dourado);
+}
+
+.form-control {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form-control:focus {
+    border-color: var(--dourado);
+    box-shadow: 0 0 5px rgba(212, 175, 55, 0.5);
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+@media (max-width: 991px) {
+    .navbar-toggler {
+        background-color: var(--branco);
+    }
+
+    .intro-content h1 {
+        font-size: 2rem;
+    }
+
+    .intro-content p {
+        font-size: 1rem;
+    }
+}
+
+.team-card img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+@media (max-width: 991px) {
+    .team-card img {
+        max-width: 120px;
+    }
+}
+
+.overlay-dark {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.new-nav-transp{
+    background-color: rgba(26, 37, 38, 0.8);
+}
+
+.navbar-brand{
+    font-family: "Audiowide", sans-serif;
+    font-size: 35px;
+}
