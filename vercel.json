@@ -3,27 +3,27 @@
     {
       "source": "/sobre",
       "destination": "/sobre.html",
-      "permanent": false
+      "permanent": true
     },
     {
       "source": "/servicos",
       "destination": "/servicos.html",
-      "permanent": false
+      "permanent": true
     },
     {
       "source": "/contato",
       "destination": "/contato.html",
-      "permanent": false
+      "permanent": true
     },
     {
       "source": "/login",
       "destination": "/login.html",
-      "permanent": false
+      "permanent": true
     },
     {
       "source": "/registro",
       "destination": "/registro.html",
-      "permanent": false
+      "permanent": true
     }
   ],
   "cleanUrls": true
