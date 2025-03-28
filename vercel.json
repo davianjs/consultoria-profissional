@@ -1,10 +1,10 @@
 {
   "redirects": [
-    { "source": "/", "destination": "/frontend/index.html", "statusCode": 308 },
-    { "source": "/sobre", "destination": "/frontend/sobre.html", "statusCode": 308 },
-    { "source": "/servicos", "destination": "/frontend/servicos.html", "statusCode": 308 },
-    { "source": "/contato", "destination": "/frontend/contato.html", "statusCode": 308 },
-    { "source": "/login", "destination": "/frontend/login.html", "statusCode": 308 },
-    { "source": "/registro", "destination": "/frontend/registro.html", "statusCode": 308 }
+    { "source": "/index.html", "destination": "/frontend/index.html", "permanent": true },
+    { "source": "/sobre.html", "destination": "/frontend/sobre.html", "permanent": true },
+    { "source": "/servicos.html", "destination": "/frontend/servicos.html", "permanent": true },
+    { "source": "/contato.html", "destination": "/frontend/contato.html", "permanent": true },
+    { "source": "/login.html", "destination": "/frontend/login.html", "permanent": true },
+    { "source": "/registro.html", "destination": "/frontend/registro.html", "permanent": true }
   ]
 }
