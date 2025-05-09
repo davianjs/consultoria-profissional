@@ -3,21 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CarreiraPro - Login</title>
+    <title>CarreiraPro - Sobre</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
-
-<body class="video-background">
-    <!-- video de fundo -->
-    <video autoplay muted loop class="background-video">
-        <source src="assets/video/background-video-01.mp4" type="video/mp4">
-        Seu navegador não suporta vídeo HTML5.
-    </video>
-
-    <!-- menu inicial -->
-    <nav class="navbar navbar-expand-lg new-nav-transp">
+<body class="sobre-background">
+    <!-- menu superior -->
+    <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="index.html">
                 CarreiraPro
@@ -31,37 +24,60 @@
                     <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
                     <li class="nav-item"><a class="nav-link" href="servicos.html">Serviços</a></li>
                     <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
-                    <li class="nav-item"><a class="btn btn-login ms-3" href="login.html">Login/Registro</a></li>
+                    <li class="nav-item"><a class="btn btn-login ms-3" href="amostra.html">AMOSTRA GRÁTIS</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- seção pra logar -->
-    <section id="login" class="py-5 flex-grow-1 overlay-dark">
+    <!-- sobre -->
+    <section id="sobre" class="py-5">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <div class="login-card">
-                        <h2 class="section-title-white text-center">Login</h2>
-                        <form>
-                            <div class="mb-3">
-                                <input type="text" class="form-control" placeholder="Nome de Usuário" required>
-                            </div>
-                            <div class="mb-3">
-                                <input type="password" class="form-control" placeholder="Senha" required>
-                            </div>
-                            <button type="submit" class="btn btn-login w-100">Entrar</button>
-                        </form>
-                        <p class="mt-3 text-center">Não tem conta? <a href="registro.html">Registre-se</a></p>
+            <h2 class="section-title">Sobre Nós</h2>
+            <p>Somos uma consultoria dedicada a transformar carreiras e impulsionar o sucesso profissional através de soluções personalizadas e inovadoras.</p>
+            
+            <div class="container-fluid">
+
+                <h3 class="mt-5">Missão e Valores</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><strong>Missão:</strong> Empoderar profissionais para alcançar seu máximo potencial através de estratégias inovadoras.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p><strong>Valores:</strong> Excelência, Integridade, Inovação, Compromisso com Resultados</p>
                     </div>
                 </div>
+
             </div>
+ 
+            <div class="container-fluid">
+
+                <h3 class="mt-5">Quem Somos</h3>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="team-card">
+                            <img src="assets/img/portrait-generic-02.jpg" class="rounded-circle mb-3" alt="João">
+                            <h5>João Silva</h5>
+                            <p>Consultor Sênior - 15 anos de experiência em gestão de carreiras</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="team-card">
+                            <img src="assets/img/portrait-generic-01.jpg" class="rounded-circle mb-3" alt="Maria">
+                            <h5>Maria Santos</h5>
+                            <p>Especialista em RH - Mestre em Desenvolvimento Humano</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>       
+            
+
         </div>
     </section>
 
-     <!-- rodapé de lei -->
-     <footer>
+    <!-- rodapé de lei -->
+    <footer>
         <div class="container text-center">
             <p>© 2025 CarreiraPro. Todos os direitos reservados.</p>
             <div class="mt-3">
